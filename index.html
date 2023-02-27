@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./STYLE/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-Up">
+            <div class="header-left">
+                <p>Город:Ташкент</p>
+                <p>Пункты выдачи</p>
+            </div>
+            <div class="header-center">
+                <p>
+                    Доставим вам заказ бесплатно — всего за 1 день!
+                </p>
+            </div>
+            <div class="header-left">
+                <p class="text">Часто задаваемые вопросы</p>
+                <p class="text">Мои заказы</p>
+                <img class="img-rus" src="./ICON/6337266878.jpg" alt="Legion">
+                <p>Россия</p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="header-logo">
+            <img src="./IMG/msedge_cZXl0RMODd.png" alt="Logo">
+            <div class="button-catalog">
+                <p>Каталог</p>
+            </div>
+            <input class="search" type="search" placeholder="Искать товары и категории">
+            <div class="button-seacrh">
+                <img src="./ICON/search.svg" alt="search">
+            </div>
+            <div class="button-tree">
+                <div class="User">
+                    <img src="./ICON/user.png" alt="User">
+                    <p>Войти</p>
+                </div>
+                <div class="Heart">
+                    <img src="./ICON/heart.svg" alt="Heart">
+                    <p>Избранное</p>
+                </div>
+                <div class="shop">
+                      <img src="./ICON/shop-bag.png" alt="shop">
+                      <p>Корзина</p>
+                </div>
+            </div>
+            </div>
+            <div class="text-header">
+                <p>Электроника</p>
+                <p>Бытовая техника</p>
+                <p>Одежда</p>
+                <p>Обувь</p>
+                <p>Аксессуары</p>
+                <p>Красота</p>
+                <p>Здоровье</p>
+                <p>Товары для дома</p>
+                <p>Строительсто и ремонт</p>
+                <p>Автотовар</p>
+                <p>Детский товары</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="https://images.uzum.uz/cfqov5nhj8j9g69850s0/main_page_banner.jpg"></div>
+              <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp0u7hj8j9g69850v0/main_page_banner.jpg"></div>
+              <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp4a7hj8j9g6985190/main_page_banner.jpg"></div>
+              <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp3fvhgiov1qicmi80/main_page_banner.jpg"></div>
+              <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp64vhj8j9g69851d0/main_page_banner.jpg"></div>
+              <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp2cvg49devoa8qseg/main_page_banner.jpg"></div>
+              <div class="swiper-slide"><img src="https://images.uzum.uz/cfqp7t7hj8j9g69851ig/main_page_banner.jpg"></div>
+              <div class="swiper-slide"><img src="https://images.uzum.uz/cehgelqvtie1lhbf9upg/main_page_banner.jpg"></div>
+              <div class="swiper-slide"><img src="https://images.uzum.uz/ceo2mlavtie1lhbg5h40/main_page_banner.jpg"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="page-element">
+            <h1>Распродажа ></h1>
+            <div class="box-element">
+
+            </div>
+          </div>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./JS/script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+
+</html>
